@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Jenis kelamin" />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/rb11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laki laki" />
+
+    <RadioButton
+        android:id="@+id/rb12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perempuan" />
+</RadioGroup>
+
+        <TextView
+            android:id="@+id/tvMarriage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="Sudah menikah?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUdah" />
+
+            <RadioButton
+                android:id="@+id/rb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum" />
+        </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/editDependents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:hint="Jumlah tanggungan"/>
+
+
+        <TextView
+            android:id="@+id/tvEdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="Sudah lulus?" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah" />
+
+            <RadioButton
+                android:id="@+id/rb32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvEmployed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="Sudah memiliki pekerjaan??" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah" />
+
+            <RadioButton
+                android:id="@+id/rb42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum" />
+        </RadioGroup>
+
+    <EditText
+        android:id="@+id/editIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:hint="Jumlah penghasilan"/>
+
+        <EditText
+            android:id="@+id/editCIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:inputType="textPersonName"
+            android:hint="Jumlah penghasilan rekan"/>
+
+    <EditText
+        android:id="@+id/editKredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:hint="Jumlah kredit"/>
+
+    <EditText
+        android:id="@+id/editWaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:hint="Jangka waktu kredit"/>
+
+    <EditText
+        android:id="@+id/editHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:hint="History kredit"/>
+
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:text="Area tempat tinggal" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urban" />
+
+            <RadioButton
+                android:id="@+id/rb52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Urban" />
+
+            <RadioButton
+                android:id="@+id/rb53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rural" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/editK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:inputType="textPersonName"
+            android:hint="Masukkan nilai K"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lakukan Tes" />
+
+
+        <EditText
+            android:id="@+id/editD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPersonName"
+            android:hint="Jarak minimal" />
+
+        <EditText
+            android:id="@+id/editMinSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPersonName"
+           android:hint="Ukuran minimum array" />
+
+        <Button
+            android:id="@+id/buttonCluster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cluster 50 data awal dari CSV" />
+
+        <Button
+            android:id="@+id/buttonWrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pindah data ke database" />
+
+
+
+        <TextView
+        android:id="@+id/viewCluster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textSize="8pt"
+        android:text="Cluster" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
